@@ -41,7 +41,7 @@ jobs:
           ls -la output/
             
      - name: Upload Built Binaries
-       uses: actions/artifacts@v4
+       uses: actions/upload-artifact@v4
        with:
         name: samecdi-libretro-ios
         path: output/
