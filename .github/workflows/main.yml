@@ -1,4 +1,4 @@
-name: Build MAME iOS dylib
+name: Build SAME_CDi iOS dylib
 
 on:
  workflow_dispatch:
